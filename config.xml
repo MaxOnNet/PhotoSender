@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <sender>
+        <account name="Viktor Tatarnikov" username="viktor@tatarnikov.org" password="" server="smtp.yandex.ru" />
+        <message
+                subject="Автоматическая отправка фотографий {photo_index} из {photo_count}."
+                body="Добрый день. Письмо отправлено автоматически, системой отправки фотографий на аккаунты МРСК ОмскЭнерго."
+                footer="С уважением PhotoSender by Viktor Tatarnikov."
+        />
+        <directory path="/Users/v_tatarnikov/Dropbox/Sharing/Photo/Турслет/Марье" />
+    </sender>
+    <destination>
+        <account username=""/>
+    </destination>
+</configuration>

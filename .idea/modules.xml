@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/SendPhotoPerEmail.iml" filepath="$PROJECT_DIR$/.idea/SendPhotoPerEmail.iml" />
+      <module fileurl="file://$USER_HOME$/PycharmProjects/PhotoSender/.idea/PhotoSender.iml" filepath="$USER_HOME$/PycharmProjects/PhotoSender/.idea/PhotoSender.iml" />
     </modules>
   </component>
 </project>
