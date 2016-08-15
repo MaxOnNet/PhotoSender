@@ -74,9 +74,12 @@ if __name__ == "__main__":
         photo_index = 1
 
         for photo_file in photo_files:
-            print "Send photo {0} of {1}".format(photo_index, len(photo_files))
+            print "Send photo {0} of {1} [{2}]".format(photo_index, len(photo_files), photo_file)
+
             photo_subject = config.get("sender", "message", "subject", "").format(photo_index=photo_index, photo_count=len(photo_files))
             photo_messadge = "{} {}".format(config.get("sender", "message", "body", ""), config.get("sender", "message", "footer", ""))
             send_mail(photo_subject, photo_messadge, ["{0}/{1}".format(args.directory, photo_file)], args)
 
             photo_index += 1
+
+        print "Send photos complate."
